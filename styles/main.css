@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body {
+    /*General properties*/
+    min-height: 100vh;
+    /*Display*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    /*Display*/
+    display: flex;
+    gap: 60px;
+}
+
+.video {
+    /*General properties*/
+    box-shadow: 0 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.speed-bar {
+    /*General properties*/
+    cursor: pointer;
+    width: 60px;
+    border-radius: 60px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    overflow: hidden;
+    /*Display*/
+    display: flex;
+    align-items: flex-start;
+}
+
+.speed-bar-value {
+    /*General properties*/
+    width: 100%;
+    color: white;
+    background: linear-gradient(-170deg, #2376ae 0%, #c16ecf 100%);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
+    height: 16.3%;
+    /*Display*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
